@@ -1,0 +1,23 @@
+.border-bottom-purple {
+  border-bottom: 3px solid purple;
+}
+
+.box-shadow-blur-nav {
+  position: relative;
+}
+
+.box-shadow-blur-nav::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: white;
+  opacity: 0.4;
+  left: 0;
+  top: 0;
+}
+
+.cursive {
+  font-family: "Dancing Script", cursive;
+}
